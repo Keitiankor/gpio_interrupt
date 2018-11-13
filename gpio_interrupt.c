@@ -26,6 +26,7 @@ static irqreturn_t button_isr(int irq, void *data)
 		value = 0;
 	else
 		value = 1;
+	printk(KERN_ERR "Button pushed %d\n", value);
 	gpio_set_value(leds[0].gpio, value);
 
 	return IRQ_HANDLED;

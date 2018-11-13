@@ -28,9 +28,9 @@ __attribute__((section("__versions"))) = {
 	{ 0xb6c1e257, __VMLINUX_SYMBOL_STR(gpiod_to_irq) },
 	{ 0x9dfdf722, __VMLINUX_SYMBOL_STR(gpio_free_array) },
 	{ 0x8574ca6c, __VMLINUX_SYMBOL_STR(gpio_request_array) },
-	{ 0x27e1a049, __VMLINUX_SYMBOL_STR(printk) },
 	{ 0x2e5810c6, __VMLINUX_SYMBOL_STR(__aeabi_unwind_cpp_pr1) },
 	{ 0x9ca0b1e0, __VMLINUX_SYMBOL_STR(gpiod_set_raw_value) },
+	{ 0x27e1a049, __VMLINUX_SYMBOL_STR(printk) },
 	{ 0xf64a8ce, __VMLINUX_SYMBOL_STR(gpiod_get_raw_value) },
 	{ 0xbaeef7b0, __VMLINUX_SYMBOL_STR(gpio_to_desc) },
 	{ 0xb1ad28e0, __VMLINUX_SYMBOL_STR(__gnu_mcount_nc) },
@@ -42,4 +42,4 @@ __attribute__((section(".modinfo"))) =
 "depends=";
 
 
-MODULE_INFO(srcversion, "1CA41ED5411EB554FD0A4CE");
+MODULE_INFO(srcversion, "300EC3C5007E605CE7AD94D");
